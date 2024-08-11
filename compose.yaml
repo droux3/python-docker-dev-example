@@ -16,8 +16,8 @@ services:
       - db-password
     develop:
       watch:
-        -action: rebuild
-        path: .
+        - action: rebuild
+          path: .
   db:
     image: postgres
     restart: always
